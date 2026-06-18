@@ -54,8 +54,6 @@ StockPriceAnalyzer/
 └── SectorSummary.csv
 
 ▶ Run Project
-Install Dependencies
-pip install -r requirements.txt
 Load Data
 python load_data.py
 Run Application
