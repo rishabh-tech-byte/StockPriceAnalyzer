@@ -32,22 +32,31 @@ Sensex Analysis
 View Database Tables
 Explore Stock Records
 📂 Project Structure
+
 StockPriceAnalyzer/
-│
+
 ├── app.py
+
 ├── load_data.py
+
 ├── Project.sql
+
 ├── README.md
+
 ├── Companies.csv
+
 ├── StockPrices.csv
+
 ├── StockAnalysis.csv
+
 ├── MarketIndex.csv
+
 └── SectorSummary.csv
+
 ▶ Run Project
-
-Install dependencies:
-
-Load data:
+Install Dependencies
+pip install -r requirements.txt
+Load Data
 python load_data.py
-Run application:
+Run Application
 streamlit run app.py
